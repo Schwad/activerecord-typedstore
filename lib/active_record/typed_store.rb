@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require 'active_support'
+require 'active_record/typed_store/attribute_assignment_extension'
 
 module ActiveRecord
   module TypedStore
